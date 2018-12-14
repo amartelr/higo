@@ -18,7 +18,7 @@ func main() {
 	argsWithoutProg := os.Args[1]
 
 	c := colly.NewCollector(
-		colly.AllowedDomains(argsWithoutProg),
+		//colly.AllowedDomains(argsWithoutProg),
 		colly.MaxDepth(1),
 	)
 
